@@ -35,7 +35,6 @@ p {
     color: #696969;
     font-weight: 400;
     line-height: 1.6rem;
-    padding-bottom: 1.4rem;
 }
 a {
     color: #000;
@@ -260,8 +259,10 @@ a {
 
 /* VIDEO STYLES */
 .video-big {
-    height: 562.5px;
-    margin: 200px;
-    padding: 60px;
-    width: 1000px;
+    margin: auto;
+    width: 1002px;
+}
+.video-big iframe {
+    height: 563px;
+    width: 100%;
 }

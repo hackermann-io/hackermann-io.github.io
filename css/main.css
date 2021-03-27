@@ -248,7 +248,7 @@ a {
     max-width: 500px;
 }
 
-/* YELLOW TEASER */
+/* SECTION COLORS */
 
 .section-yellow {
     background-color: #edff1e;
@@ -256,13 +256,29 @@ a {
 .section-yellow p {
     color: #393939;
 }
+.section-grey {
+    background-color: #f0f0f0;
+}
 
 /* VIDEO STYLES */
 .video-big {
     margin: auto;
+    padding-bottom: 60px;
     width: 1002px;
 }
 .video-big iframe {
     height: 563px;
     width: 100%;
+}
+.video-small iframe {
+   
+    width: 500px;
+}
+.video-grey {
+    display: flex;
+    justify-content: space-between;
+}
+.video-grey h2,
+.video-grey p {
+    padding-left: 40px;
 }

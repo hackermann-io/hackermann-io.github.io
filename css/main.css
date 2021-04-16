@@ -25,26 +25,63 @@ body {
 }
 h1 {
     font-family: 'Barrio', sans-serif;
+    font-size: 44px;
+    line-height: 60px;
 }
 h2 {
     font-size: 30px;
     line-height: 40px;
     padding: 0 0 30px 0;
 }
+h3 {
+    font-size: 26px;
+    line-height: 34px;
+    padding: 0 0 20px 0;
+}
 p {
     color: #696969;
     font-weight: 400;
-    line-height: 1.6rem;
+    line-height: 1.60rem;
 }
 a {
     color: #000;
 }
+img {
+    width: 100%;
+}
+.label {
+    padding-bottom: 1rem;
+}
+
+
+/* SECTION STYLES */
+
 .section-800 {
     margin: auto;
     max-width: 800px;
     padding-top: 60px;
     padding-bottom: 60px;
     width: 100%;
+}
+.section-1000 {
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+.section-yellow {
+    background-color: #edff1e;
+}
+.section-yellow p {
+    color: #393939;
+}
+.section-grey {
+    background-color: #f0f0f0;
+}
+.no-padding {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 /* HEADER STYLES */
@@ -236,28 +273,12 @@ a {
     padding-top: 10px;
     width: 100%;
 }
-.ueber-mich-header h1 {
-    font-size: 44px;
-    line-height: 60px;
-}
 .ueber-mich-header p {
     font-size: 1rem;
     padding: 20px 30px 0 0;
 }
 .ueber-mich-header img {
     max-width: 500px;
-}
-
-/* SECTION COLORS */
-
-.section-yellow {
-    background-color: #edff1e;
-}
-.section-yellow p {
-    color: #393939;
-}
-.section-grey {
-    background-color: #f0f0f0;
 }
 
 /* VIDEO STYLES */
@@ -283,21 +304,69 @@ a {
 }
 
 /* ARBEITSLAUF STYLES */
-.arbeitslauf-inhalt {
-    background-color: blue;
-    display: flex;
-    margin: auto;
-    max-width: 800px;
+.cv-intro {
+    padding: 60px 0 10px 0;
 }
-.arbeitslauf-inhalt p {
-    border: peru;
-    align: right;
-    color: #000;
-    padding: 0 20px;
-}
-.arbeitslauf-inhalt ul {
-    border: palegreen;
-    list-style-type: none;
-    padding: 0 20px;
 
+.cv {
+    display: grid;
+	grid-template-columns: 1fr 1.5fr;
+	grid-gap: 40px;
 }
+.cv-list {
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+.cv-list p {
+    text-align: right;
+    color: #000;
+}
+.cv-list ul {
+    list-style-type: none;
+    line-height: 2rem;
+}
+.cv-date {
+    font-size: 0.8rem;
+}
+.piece-com {
+    text-align: right;
+}
+.piece-story {
+    padding: 6px 0 30px 0;
+}
+.piece-story p {
+    padding: 0 0 1rem 0;
+}
+
+
+/* WEITERBUILDEN STYLES */
+
+.weiterbuilden h1 {
+    padding-bottom: 40px;
+}
+.sources-grid {
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 40px;
+}
+.learn-enough {
+	grid-gap: 12px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.buchreihe-text {
+    padding-top: 20px;
+}
+.link {
+    padding-top: 16px;
+}
+
+/* TIPP */
+
+.tipp {
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    line-height: 46px;
+}
+

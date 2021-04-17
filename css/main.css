@@ -51,6 +51,7 @@ img {
     width: 100%;
 }
 .label {
+    padding-right: 1rem;
     padding-bottom: 1rem;
 }
 
@@ -155,7 +156,7 @@ img {
     text-decoration: none;
 }
 .footer-links a:hover {
-    color: #FF0099;
+    color: #f09;
 }
 .footer-links a:active  {
     color: #1EFFC9;
@@ -202,12 +203,15 @@ img {
     background-repeat: no-repeat;
     background-size: 490px 598px;
     min-height: 600px;
-    margin-right: 150px;
+    margin-right: 180px;
     overflow: visible;
 }
 
 .homepage-hero-text {
     padding-top: 120px;
+}
+#hero-padding {
+    padding-top: 80px;
 }
 #homepage-hallo {
     font-size: 200px;
@@ -216,7 +220,7 @@ img {
 #homepage-ichbin {
     display: inline-block;
     font-size: 44px;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-left: 80px;
 }
 
@@ -229,18 +233,23 @@ img {
     background-repeat: no-repeat;
     background-size: 238px 380px ;
     margin: auto;
-    margin-top: -100px;
+    margin-top: -110px;
     max-height: 600px;
     max-width: 1000px;
     width: 100%;
 }
 .homepage-teaser-content {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     margin: auto;
     max-width: 800px;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 60px;
     width: 100%;
+}
+.homepage-teaser-content p {
+    color: #000;
+    line-height: 1.9rem;
+
 }
 
 #hp-cta-text {
@@ -258,11 +267,17 @@ img {
     padding: 9px 15px 13px 15px;
     width: 230px;
 }
-
+.hp-cta-button a {
+    text-decoration: none;
+}
 #hp-cta-text:hover {
     background:url(/images/Button_hp_pink.svg) no-repeat;
     background-position: center;
     background-size: contain;
+    border: none;
+}
+#hp-cta-button:active {
+    border: none;
 }
 
 /* UEBER MICH HEADER STYLES */
@@ -371,44 +386,13 @@ img {
 }
 
 
-
-
-
-
 /* HACKS STYLES */
 
 .hacktag-grid {
     display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 26px;
+	grid-gap: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hacktag-grid h3 {
     color: #fff;
 }
@@ -416,5 +400,29 @@ img {
     display: grid;
 	grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-	grid-gap: 60px;
+	grid-gap: 66px;
+}
+.hacktag-grid a {
+    line-height: 1.6rem;
+    padding: 0 0.6rem 0 0;
+    white-space: nowrap;
+}
+.label a {
+    text-decoration: none;
+    color: #696969;
+}
+#neu-list a {
+    color: #edff1e;
+    font-family: 'Barrio', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+#neu-padding {
+    padding-bottom: 1rem;
+}
+.neu-content {
+    color: #f09;
+    font-family: 'Barrio', sans-serif;
+    font-size: 1.3rem;
+    padding-right: 1rem;
 }

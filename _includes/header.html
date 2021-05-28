@@ -1,10 +1,14 @@
-<header class="header">
-    <nav>
-        <input type="checkbox" id="mobile-menu" class="mobile-menu-check">
-        <label for="mobile-menu" class="show-mobile-menu"><img src="/images/mobile-menu-icon.png" alt="Mobile Menu Icon"></label>
-        <ul class="header-nav nav-links">
-            {% include nav-links.html %}
-        </ul>
-    </nav>
-    <a href="/" class="header-logo"><img src="/images/logo-hackermann.svg" alt="Hackermann Logo"></a>
+<header>
+  <a href="/" class="header-logo"
+    ><img src="/images/logo-hackermann.svg" alt="Hackermann Logo"
+  /></a>
+  <nav>
+    <input type="checkbox" id="mobile-menu" class="mobile-menu-check" />
+    <label for="mobile-menu" class="show-mobile-menu"
+      ><img src="/images/mobile-menu-icon.png" alt="Mobile Menu Icon"
+    /></label>
+    <ul class="header-nav nav-links">
+      {% include nav-links.html %}
+    </ul>
+  </nav>
 </header>
